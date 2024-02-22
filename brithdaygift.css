@@ -1,0 +1,71 @@
+body{
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  background: linear-gradient(rgb(0, 183, 255), pink) ;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bff {
+  width: 350px;
+  border-radius: 50%;
+  border: 6px solid pink;
+}
+
+h1, h2, h4 {
+  text-shadow: 0 0 1px black;
+}
+
+#age {
+  background: pink;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+#date {
+  background: pink;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gift-img{
+  margin: 0 auto;
+   width: 400px;
+   height: 430px;
+   border: 6px solid white;
+   border-radius: 10px;
+   background-image: url("https://t3.ftcdn.net/jpg/00/57/08/46/360_F_57084608_ciyjhtwgdKSjeZwhDTNDyuMdWik8gNF9.jpg");
+   background-size: cover;
+  }
+.gift-section{
+  margin-top: 50px;
+}
+.gift-title{
+  margin-top: 10px;
+}
+.gift-hint{
+  margin-top: 0;
+}
+#gift-happy:hover{
+  background-image: url("https://img.freepik.com/free-vector/bright-background-with-two-nice-gifts-birthday_1048-3218.jpg?size=626&ext=jpg");
+}
+.gift-img-hut{
+  background-image: url("https://img.freepik.com/free-vector/bright-background-with-two-nice-gifts-birthday_1048-3218.jpg?size=626&ext=jpg");
+}
+#footer{
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+a{
+  color: white;
+}
